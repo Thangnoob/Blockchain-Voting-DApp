@@ -18,18 +18,13 @@ Cho phép người dùng bỏ phiếu cho các đề xuất và xem kết quả 
 
 ### 2. Deploy Smart Contract
 1. Mở [Remix IDE](https://remix.ethereum.org/)
-2. Tạo file `Voting.sol` và dán code smart contract
+2. Tạo file `Voting.sol` và code smart contract
 3. Compile với Solidity 0.8.x
 4. Deploy với tham số mảng tên đề xuất, ví dụ:
 ["Alice", "Bob", "Charlie"]
-
-markdown
-Sao chép
-Chỉnh sửa
 5. Xác nhận giao dịch trên MetaMask
 
 ### 3. Test Voting
 - Gọi hàm `vote(proposalIndex)` để bỏ phiếu
 - Gọi `getProposals()` để xem kết quả
 
-## 📂 Cấu trúc repo
